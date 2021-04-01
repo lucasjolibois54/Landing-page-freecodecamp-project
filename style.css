@@ -113,3 +113,29 @@
         margin-top: 10px;
         margin-bottom: 20px;
     }
+
+    form{
+        margin-top: -20px;
+        text-align: center;
+      }
+      input[type=text],input[type=email], textarea, select {
+          border: 0.5px solid #333333; 
+          box-sizing: border-box;
+          margin-top: 4px; 
+          margin-bottom: 12px; 
+          width: 40%; 
+          padding: 8px;
+        }
+
+        ::placeholder{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 3000;
+        }
+
+
+        #footer-img{
+            height: auto;
+            width: 100%;
+            margin-top: 100px;
+        }
