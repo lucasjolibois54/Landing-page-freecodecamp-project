@@ -137,5 +137,49 @@
         #footer-img{
             height: auto;
             width: 100%;
-            margin-top: 100px;
+            margin-top: 190px;
+        }
+
+
+
+
+        #footer{
+            padding: 0.6em;
+            padding-bottom: 1.5em;
+            background: #FFA30F;
+            color: #ffffff;
+            text-align: center;
+            font-family: Helvetica, sans-serif;
+            margin-top: -3px;
+            margin-top: -50px;
+            
+            
+        }
+        
+        #footer a{
+            color: #FCB905;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        #footer ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #footer ul a{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            color: #FEFEFE;
+            
+        }
+        
+        #foot{
+            display: grid; 
+            grid-gap: 3px; 
+            padding: 0;
+            list-style: none;
+            grid-template-columns: 1fr  1fr 1fr ; 
         }
